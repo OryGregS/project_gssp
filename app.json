@@ -1,0 +1,6 @@
+{
+  "name": "project_gssp",
+  "description": "Personal website",
+  "image": "heroku/scala",
+  "addons": [ "heroku-postgresql" ]
+}
