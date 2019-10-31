@@ -1,4 +1,4 @@
-name := """play-getting-started"""
+name := """project_gssp"""
 
 version := "1.0-SNAPSHOT"
 
