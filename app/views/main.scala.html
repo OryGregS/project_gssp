@@ -3,15 +3,44 @@
 <!DOCTYPE html>
 
 <html>
+    @*<head>
+    <title>@title</title>
+    <title>Gregory Smith - Data Engineer</title>
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="@routes.Assets.at("stylesheets/main.css")" />
+    </head>*@
     <head>
-        <title>@title</title>
-        <title>Gregory Smith - Data Engineer</title>
-        <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="@routes.Assets.at("stylesheets/main.css")" />
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Personal website for Gregory Smith ">
+        <meta name="author" content="Gregory Smith, Greg Smith, Greg R Smith, Gregory R Smith">
+        <meta name="keywords" content="Greg, Smith, Gregory, Gregory R Smith, Gregory Randall Smith, Data,
+        Data Science, Data Scientist, Data Analyst, Analyst, Programmer, Programming, Engineer, Software Developer,
+        Software Engineer, Data Engineer, Big Data Engineer, Big Data, Machine Learning, Data Mining,
+        Statistics, R, Python, Github, Bootstrap, Git, Computer Science, Parallel, Distributed,
+        Parallel Computations, Distributed Systems, Hadoop, Java, Scala, Spark, ">
+
+        <title>Gregory Smith | Data Engineer</title>
+
+        <!-- Favicon-->
+        <link href="@routes.Assets.at("img/icons/favicon.ico")" rel="shortcut icon" type="image/x-icon" />
+        <link rel="apple-touch-icon" sizes="180x180" href="@routes.Assets.at("img/icons/apple-touch-icon.png")">
+        <link rel="icon" type="image/png" sizes="32x32" href="@routes.Assets.at("img/icons/favicon-32x32.png")">
+        <link rel="icon" type="image/png" sizes="16x16" href="@routes.Assets.at("img/icons/favicon-16x16.png")">
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://kit.fontawesome.com/a25bbdd57a.js" crossorigin="anonymous"></script>
+
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet" type="text/css">
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="@routes.Assets.at("css/styles.css")" rel="stylesheet" />
     </head>
-    <body>
+    <body id="page-top">
         @nav()
         @content
     </body>
