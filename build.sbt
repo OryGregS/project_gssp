@@ -11,11 +11,11 @@ lazy val root = (project in file("."))
         libraryDependencies ++= Seq(
           jdbc,
           cache,
-          ws,
-          "org.postgresql" % "postgresql" % "9.4-1201-jdbc41",
-          "io.getquill" %% "quill-jdbc" % "3.2.0"
-          //"com.typesafe.play" %% "play-mailer" % "7.0.1",
-          //"com.typesafe.play" %% "play-mailer-guice" % "7.0.1"
+          ws
+          //,"org.postgresql" % "postgresql" % "9.4-1201-jdbc41"
+          //,"io.getquill" %% "quill-jdbc" % "3.2.0"
+          //,"com.typesafe.play" %% "play-mailer" % "7.0.1"
+          //,"com.typesafe.play" %% "play-mailer-guice" % "7.0.1"
           //,"org.scalatestplus.play" %% "scalatestplus-play" % "5.0.0" % "test"
         )
     )
