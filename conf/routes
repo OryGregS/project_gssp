@@ -3,9 +3,9 @@
 # ~~~~
 
 # Home page
-GET         /                                        controllers.Application.index
-POST        /contact                                 controllers.Application.submit
+GET         /                         controllers.Application.index
+POST        /contact                  controllers.Application.submit
+GET         /.well-known/*file        controllers.Assets.at(path="/public/.well-known", file)
 
 # Map static resources from the /public folder to the /assets URL path
-GET         /assets/*file                            controllers.Assets.at(path="/public", file)
-GET         /.well-known/acme-challenge/*file        controllers.Assets.at(path="/public/.well-known/acme-challenge/", file)
+GET         /assets/*file             controllers.Assets.at(path="/public", file)
