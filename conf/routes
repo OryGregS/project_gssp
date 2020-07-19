@@ -4,8 +4,8 @@
 
 # Home page
 GET         /                                        controllers.Application.index
-POST        /contact                                 controllers.Application.submit
 GET         /.well-known/acme-challenge/*file        controllers.Application.getSSLCert(file)
+POST        /contact                                 controllers.Application.submit
 
 # Map static resources from the /public folder to the /assets URL path
 GET         /assets/*file                            controllers.Assets.at(path="/public", file)
